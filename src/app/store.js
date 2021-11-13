@@ -1,4 +1,4 @@
-import { configureStore } from "@reduxjs/toolkit";
+import {configureStore} from "@reduxjs/toolkit";
 import themeToggleReducer from "../features/theme-toggle/themeToggleSlice";
 
 export default configureStore({

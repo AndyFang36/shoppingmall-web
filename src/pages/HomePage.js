@@ -1,9 +1,10 @@
-import {Container} from "@mui/material";
+import {Box} from "@mui/material";
+import Carousel from "../components/Carousel";
 
 export default function HomePage() {
     return(
-        <Container>
-            home page
-        </Container>
+        <Box>
+            <Carousel/>
+        </Box>
     );
 }
